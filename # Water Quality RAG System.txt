@@ -1,0 +1,48 @@
+# Water Quality RAG System
+
+## Overview
+
+This project implements an end-to-end Retrieval-Augmented Generation (RAG) pipeline for environmental and water-quality intelligence.
+
+The system transforms structured environmental datasets into semantically meaningful reports, generates dense vector embeddings, stores them inside a FAISS vector database, retrieves contextually relevant environmental records, and uses Gemini LLM to generate grounded responses.
+
+## Technologies Used
+
+* Python
+* Google Colab
+* LangChain
+* Sentence Transformers
+* FAISS
+* Gemini API
+* Pandas
+* NumPy
+
+## Workflow
+
+1. Dataset preprocessing
+2. Natural language transformation
+3. Text chunking
+4. Embedding generation
+5. FAISS vector database creation
+6. Semantic retrieval
+7. Prompt engineering
+8. Gemini-based grounded response generation
+
+## Sample Query
+
+"Which locations show poor water quality?"
+
+## Features
+
+* Semantic search using embeddings
+* Retrieval-Augmented Generation (RAG)
+* Hallucination-reduced prompting
+* Environmental intelligence assistant
+* Lightweight vector database implementation
+
+## Future Improvements
+
+* Streamlit frontend
+* Real-time IoT integration
+* Advanced reranking models
+* Multimodal environmental intelligence
